@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eeeeec;
+}
+
+.container-card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 24rem;
+  border-radius: 15px;
+  padding: 10px;
+  margin: auto;
+  margin-top: 2rem;
+  background-color: #ffffffff;
+  box-shadow: 2px 2px 7px 3px grey;
+}
+
+.container-top {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+.icone-menu {
+  width: 30px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.icone-menu:hover {
+  transform: scale(1.2);
+}
+
+.icone-menu:active {
+  content: url(../images/trois-traits.png);
+  transform: scale(1.4);
+}
+
+.icone-fleche {
+  width: 30px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.icone-fleche:active {
+  content: url(../images/fleche-full.png);
+  transform: scale(1.4);
+}
+
+.icone-fleche:hover {
+  transform: scale(1.2);
+}
+
+.icone-like {
+  width: 30px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.icone-like:hover {
+  transform: scale(1.2);
+}
+
+.icone-like:active {
+  content: url(../images/likefull.png);
+  transform: scale(1.4);
+}
+
+.container-main {
+  padding: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-bottom: 1px solid;
+  border-image: linear-gradient(
+      to right,
+      rgba(40, 40, 40, 0.5),
+      rgba(10, 10, 10, 0.2),
+      rgba(40, 40, 40, 0.5)
+    )
+    1;
+    border-top: 1px solid;
+  border-image: linear-gradient(
+      to right,
+      rgba(40, 40, 40, 0.5),
+      rgba(10, 10, 10, 0.2),
+      rgba(40, 40, 40, 0.5)
+    )
+    1;
+}
+
+.pdp {
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  object-fit: contain;
+  box-shadow: 1px 1px 5px black;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.pdp::after {
+  content: "f336";
+  font-family: "Font Awesome 5 Free";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.container-main h1 {
+  font-family: "Lato", sans-serif;
+  color: #2d354a;
+  margin-bottom: 3px;
+}
+
+.container-main h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  color: gray;
+  font-weight: normal;
+}
+
+.container-main p {
+  font-family: "Maven Pro", sans-serif;
+  font-size: 16px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.button {
+  display: inline-block;
+  color: #ffffffff;
+  text-decoration: none;
+  border-radius: 18px;
+  padding: 10px 10px;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  background: linear-gradient(to right bottom, #45b8ee, #190cc7, #79146b, #ddab06);
+  box-shadow: 1px 1px 5px 2px gray;
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
+
+i {
+  color: white;
+}
+
+.icone-brands {
+  border-radius: 50%;
+  box-shadow: 1px 1px 5px 2px gray;
+  width: 62px;
+  height: 62px;
+  transition: transform 0.3s ease;
+  margin-bottom: 15px;
+}
+
+.icone-brands:hover {
+  transform: scale(1.1);
+}
+
+.position-brands {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.twitter-style {
+  background: linear-gradient(to right bottom, #0462a0, #28e6ec);
+}
+
+.linkedin-style {
+  background: linear-gradient(to right bottom, #03385c, #379ff5);
+}
+
+.insta-style {
+  background: linear-gradient(to right bottom, #643e96, #ff54f1, #e2cc08);
+}
+
+.container-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.container-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-info h4 {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+}
+
+.container-info p {
+  font-family: "Maven Pro", sans-serif;
+  font-size: 14px;
+  color: gray;
+}
+
+/* <i class="fa-solid fa-badge-check" style="color: #fb3ceb;"></i> */
