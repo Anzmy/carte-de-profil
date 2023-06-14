@@ -148,6 +148,7 @@ body {
   font-weight: bold;
   background: linear-gradient(to right bottom, #45b8ee, #190cc7, #79146b, #ddab06);
   box-shadow: 1px 1px 5px 2px gray;
+  transition: transform 0.3s ease;
 }
 
 .button:hover {
